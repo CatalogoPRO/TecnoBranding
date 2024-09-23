@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="nav">
+
+            <img class="nav__logo" src="assets/imagenes/logo.webp" alt="">
+
+            <h1 class="nav__text">Todo lo que te conecta, en un solo lugar.</h1>
+
+        </nav>
+
+        <h2 class="header__text">Catálogo Septiembre 2024</h2>
+
+<img class="header__wave" src="assets/vectores/wave.svg" alt="">
+
+    </header>
+
+
+
+    <section class="productos" id="productos">
+
+
+        <h5 class="productos__title">Elige la categoria que estas buscando</h5>
+        <div class="filters">
+
+
+            <button class="filter-btn active" data-filter="all">
+                <img class="cotegoria__icon" src="assets/vectores/iconTODO.svg" alt="">
+                Todo</button>
+
+            <button class="filter-btn" data-filter="category1">
+                <img class="cotegoria__icon" src="assets/vectores/iconCATEGORIA1.svg" alt="">
+                Audio</button>
+
+            <button class="filter-btn" data-filter="category2">
+                <img class="cotegoria__icon" src="assets/vectores/iconCATEGORIA2.svg" alt="">
+                Hogar</button>
+
+            <button class="filter-btn" data-filter="category3">
+                <img class="cotegoria__icon" src="assets/vectores/iconCATEGORIA3.svg" alt="">
+                Computacion</button>
+
+            <button class="filter-btn" data-filter="category4">
+                <img class="cotegoria__icon" src="assets/vectores/iconCATEGORIA4.svg" alt="">
+                Entretenimiento</button>
+
+            <button class="filter-btn" data-filter="category5">
+                <img class="cotegoria__icon" src="assets/vectores/iconCATEGORIA5.svg" alt="">
+                Celulares y accesorios</button>
+
+        </div>
+
+        <h5 class="productos__title2">Ó ingresa el nombre del Artículo</h5>
+        <article class="busqueda">
+            <input class="busqueda__input" type="text" id="searchInput" placeholder="¿Qué buscas...?">
+            <ul id="suggestionsList" class="suggestions-list"></ul>
+            <p id="noResultsMessage" class="no-results-message">Lo siento, prueba con otras palabras.</p>
+        </article>
+
+        <div class="products" id="articulos">
+
+            <!-- ---------------------- AUDIO -------------------- -->
+
+
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Parlante Netmak 24siete 6.5 10″ </h4>
+                <img class="producto__img" src="assets/articulos/audio/au03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Parlante Netmak Nm-Liberty karaoke 15″</h4>
+                <img class="producto__img" src="assets/articulos/audio/au02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Auricular Netmak Counter Gamer Camuflado con Mic.</h4>
+                <img class="producto__img" src="assets/articulos/audio/au01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+
+
+            <!-- ---------------------- Hogar -------------------- -->
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Batería de Ollas Chef Premium</h4>
+                <img class="producto__img" src="assets/articulos/hogar/ho01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Exprimidor Manual de Cítricos Brikenia</h4>
+                <img class="producto__img" src="assets/articulos/hogar/ho02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Cocina Escorial Candor S2</h4>
+                <img class="producto__img" src="assets/articulos/hogar/ho03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Pileta Infantil Mor 400 Lts Tipo Pelopincho</h4>
+                <img class="producto__img" src="assets/articulos/hogar/ho04.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+
+            <!-- ---------------------- computacion -------------------- -->
+
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Teclado Mecánico Gamer Netmak Skill</h4>
+                <img class="producto__img" src="assets/articulos/computacion/co01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Repetidor Extensor De Rango Señal Wifi Internet</h4>
+                <img class="producto__img" src="assets/articulos/computacion/co02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Combo Teclado Mouse Inalambrico Netmak Kb Logit Ultra Slim</h4>
+                <img class="producto__img" src="assets/articulos/computacion/co03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+
+
+            <!-- ---------------------- Entretenimiento -------------------- -->
+
+
+            <div class="product category4">
+
+                <h4 class="producto__title">Joystick de PC Netmak 2.0 USB</h4>
+                <img class="producto__img" src="assets/articulos/entretenimiento/en01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category4">
+
+                <h4 class="producto__title">Monopatín Scooter Street Graffiti 3 Ruedas Metal</h4>
+                <img class="producto__img" src="assets/articulos/entretenimiento/en02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category4">
+
+                <h4 class="producto__title">Drone Cuadricoptero wifi con cámara suono</h4>
+                <img class="producto__img" src="assets/articulos/entretenimiento/en03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+
+
+            <!-- ---------------------- Entretenimiento -------------------- -->
+
+
+            <div class="product category5">
+
+                <h4 class="producto__title">Dr celular con teclas Kanji Home</h4>
+                <img class="producto__img" src="assets/articulos/celuyacc/ac01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+            <div class="product category5">
+
+                <h4 class="producto__title">Cargador para auto Netmak NM-UCC7</h4>
+                <img class="producto__img" src="assets/articulos/celuyacc/ac02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+
+            <div class="product category5">
+
+                <h4 class="producto__title">Power Bank con MagSafe para Apple/iPhone</h4>
+                <img class="producto__img" src="assets/articulos/celuyacc/ac03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$0.000</h5>
+                </div>
+                <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+        </div>
+
+        <button class="productos__cta" id="loadMoreAll" style="display:none;">Cargar más</button>
+
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <img class="footer__logo" src="assets/imagenes/logo.webp" alt="">
+
+            <div class="social">
+                <h5 class="social__text">Siguenos</h5>
+                <div class="social__icons">
+                    <img class="social__icon" src="assets/vectores/facebook_redondo.svg" alt="">
+                    <img class="social__icon" src="assets/vectores/instagram_redondo.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascript/javascript.js"></script>
+
+</body>
+
+</html>
